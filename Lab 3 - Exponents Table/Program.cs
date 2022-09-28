@@ -20,7 +20,7 @@ public class Program
                 Console.WriteLine("\nThat number is too large. Please input a smaller number.");
                 continue;
             }
-            else if (num1 < 0) //if the number is negative, will prompt the user to re-enter a number. 
+            else if (num1 <= 0) //if the number is negative or zero, will prompt the user to re-enter a number. 
             {
                 Console.WriteLine("\nPlease enter a positive number that is greater than 0.");
                 continue;
